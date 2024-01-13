@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://cpqhn1fip6xym"]
+
+[ext_resource type="Texture2D" uid="uid://d0j4ji4gc2tta" path="res://icon.svg" id="1_0xv0i"]
+[ext_resource type="Script" path="res://Camera2D.gd" id="1_xg43b"]
+
+[node name="World" type="Node2D"]
+
+[node name="Camera2D" type="Camera2D" parent="."]
+script = ExtResource("1_xg43b")
+
+[node name="Icon" type="Sprite2D" parent="."]
+position = Vector2(544, 327)
+texture = ExtResource("1_0xv0i")
+
+[node name="Icon2" type="Sprite2D" parent="."]
+position = Vector2(2.08165e-12, 2.08165e-12)
+texture = ExtResource("1_0xv0i")
